@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  crystalys:
+    build: .
+    image: crystalys:latest
+    container_name: crystalys
+    network_mode: host
+    environment:
+      # Connect to Ollama running in WSL via localhost
+      - OLLAMA_ENDPOINT=http://127.0.0.1:11434/v1
+    volumes:
+      - ~/.crystalys.json:/home/node/.crystalys.json:ro
+    stdin_open: true
+    tty: true

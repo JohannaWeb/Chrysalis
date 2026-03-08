@@ -1,0 +1,31 @@
+{
+  "name": "crystalys",
+  "version": "1.0.0",
+  "description": "CLI tool for AI-powered assistance with Ollama and tool-calling",
+  "main": "src/index.ts",
+  "type": "module",
+  "bin": {
+    "crystalys": "src/index.ts"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "chat": "tsx src/index.ts chat",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["cli", "ollama", "ai", "llm", "tools"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "openai": "^4.77.0",
+    "ora": "^8.1.1",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/inquirer": "^9.0.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
