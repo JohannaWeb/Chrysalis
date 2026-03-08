@@ -3,6 +3,9 @@ Using AI for readmes is kinda lame.
 I wrote this because i was tired of rate limits.
 A human hitting the keys on a plastic thing we call a keyboard.
 
+<img width="1337" height="202" alt="image" src="https://github.com/user-attachments/assets/98e44184-c954-4621-a715-2915d60ee599" />
+
+
 ## Installation
 
 ```bash
